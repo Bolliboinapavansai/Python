@@ -1,0 +1,11 @@
+p=int(input())
+b=int(input())
+d=int(input())
+leftpaint=p%b
+round(leftpaint)
+print(leftpaint)
+badges=p//b
+print(badges)
+round(badges)
+total=(badges*d)+leftpaint
+print(total)
