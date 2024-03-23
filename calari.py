@@ -1,0 +1,44 @@
+burger=int(input())
+side=int(input())
+drink=int(input())
+dessert=int(input())
+calb=int(0)
+cals=int(0)
+cald=int(0)
+calde=int(0)
+if(burger==1):
+	calb=461
+elif(burger==2):
+	calb=431
+elif(burger==3):
+	calb=420
+elif(burger==4):
+	calb=0
+
+if(side==1):
+	cals=100
+elif(side==2):
+	cals=57
+elif(side==3):
+	cals=70
+elif(side==4):
+	cals=0
+if(drink==1):
+	cald=130
+elif(drink==2):
+	cald=160
+elif(drink==3):
+	cald=118
+elif(drink==4):
+	cald=0
+if(dessert==1):
+	calde=167
+elif(dessert==2):
+	calde=266
+elif(dessert==3):
+	calde=75
+elif(dessert==4):
+	calde=0
+
+total=calb+cals+cald+calde
+print(total)
